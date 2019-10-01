@@ -3,57 +3,91 @@
     "Lácteos":{
         "Leches":[
             {  "name":"Soprole - Leche Entera ",
-                "value":1500 ,
+                "value":620 ,
                 "peso":"1 L" ,
                 "url" : ""
             },
             {   "name":"Lonco Leche - Leche  Sin lactosa Descremada",
-                "value":1.500,
+                "value":790,
                 "peso":"1 L" ,
                 "url" : ""
             },
             {   "name":"Colun- Leche Sin lactosa",
-                "value":1.500 ,
+                "value":790 ,
                 "peso":"1 L" ,
                 "url" : ""
             },
            {  "name":"Lonco Leche - Leche  Sin lactosa Chocolate Descremada",
-                "value":590,
+                "value":990,
                 "peso":"1 L" ,
                 "url" : ""
                 } ,
-                { "name":"Colun - Leche Entera",
-                 "value":590,
+                { "name":"Soprole- Leche Descremada",
+                 "value":690,
                   "peso":"1 L" ,
                   "url" : ""
                     } ,
              {  "name":"Colun - Leche Entera",
-                 "value":590,
+                 "value":670,
                  "peso":"1 L" ,
                  "url" : ""
                     } ,
            {  "name":"Soprole - Leche Chocolate Semidescremada",
-                "value":590,
+                "value":990,
                  "peso":"1 L" ,
                 "url" : ""
                        } ,
             {  "name":"Soprole -Leche ZeroLacto Descremada",
-                 "value":590,
+                 "value":790,
                  "peso":"1 L" ,
                  "url" : ""
                        } ,
              {  "name":"Svelty - Leche en polvo Sin lactosa Descremada",
-                 "value":590,
-                 "peso":"1 L" ,
+                 "value":4290,
+                 "peso":"800 gr" ,
                  "url" : ""
                        } ,
            {   "name":"Vital - Leche Sin lactosa",
-                 "value":590,
+                 "value":890,
                  "peso":"1 L" ,
-                  "url" : ""
-                       } 
-                ],
-        "Frutas y verduras":[
+                  "url" : "" }],
+
+        "Quesos" : [
+             { "name":"Colun - Queso rallado",
+                 "value": 575,
+                 "peso":" 40 gr",
+                 "url" : ""
+                 } ,
+                 { "name":"Quillayes - Queso ricotta",
+                    "value": 4159,
+                    "peso":" 500 gr gr",
+                    "url" : ""
+                    } ,
+                    { "name":"Colun - Queso rallado",
+                        "value": 575,
+                        "peso":" 40 gr",
+                        "url" : ""
+                        }
+                ]},
+                "Mantequillas" : [
+                    {  "name":"Soprole -Margarina con leche ",
+                        "value":1111,
+                        "peso":"500 gr" ,
+                        "url" : ""
+                        } ,
+                        {  "name":"Calo-Mantequilla untable",
+                            "value":1919,
+                            "peso":"350 gr" ,
+                            "url" : ""
+                            } ,
+                            {  "name":"Soprole-Mantequilla Sin Sal",
+                                "value":1690,
+                                "peso":"250 gr" ,
+                                "url" : ""
+                                } 
+                ]}  , 
+        "Frutas y verduras":{
+           "frutas" : [
             {  "name":"Limón malla",
                 "value":590,
                 "peso":"1 Kg" ,
@@ -104,9 +138,10 @@
                 "peso":" 500 gr ",
                 "url" : ""
             }
-                
-            ],
-         "Bebidas y licores":[
+         
+            ] },
+         "Bebidas y licores": {
+        "Bebidas": [
             {  "name":"Bebida Desechable Light",
                 "value":1.200,
                 "peso":"1 L",
@@ -156,8 +191,9 @@
                 "peso":"1 L",
                 "url" : ""
             }
-        ],
-        "Aseo y limpieza":[
+        ] },
+        "Aseo y limpieza":{
+                "Aseo y limpieza" :  [
             {  "name":"Papel Higiénico Soft Care",
                 "value": 8.690,
                 "peso":"18 un",
@@ -208,6 +244,8 @@
                 "url" : ""
             }
         ]
-                      
+                
         }
-    }}
+    }
+    
+    
