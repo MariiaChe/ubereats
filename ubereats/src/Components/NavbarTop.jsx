@@ -8,7 +8,7 @@ class NavbarTop extends Component{
             <div id="navbartop" className="header">
                 <div className="container">
                    <div className="row">
-                       <img  id="arrowb" src={ArrowB} alt="arrow to back"/>
+                       <img  className="arrowb" src={ArrowB} alt="arrow to back"/>
                        <p >Carmen 566</p>
                        <div className="arrowd">
                            <img id="arrowd" src={ArrowD} alt="arrow to down"/>
