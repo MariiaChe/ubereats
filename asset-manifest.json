@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/ubereats/static/css/main.b100e6da.chunk.css",
-    "main.js": "/ubereats/static/js/main.0ed41abe.chunk.js",
-    "main.js.map": "/ubereats/static/js/main.0ed41abe.chunk.js.map",
+    "main.css": "/ubereats/static/css/main.edf89490.chunk.css",
+    "main.js": "/ubereats/static/js/main.69e0081c.chunk.js",
+    "main.js.map": "/ubereats/static/js/main.69e0081c.chunk.js.map",
     "runtime-main.js": "/ubereats/static/js/runtime-main.f25c727e.js",
     "runtime-main.js.map": "/ubereats/static/js/runtime-main.f25c727e.js.map",
     "static/css/2.510409cd.chunk.css": "/ubereats/static/css/2.510409cd.chunk.css",
-    "static/js/2.376b2dff.chunk.js": "/ubereats/static/js/2.376b2dff.chunk.js",
-    "static/js/2.376b2dff.chunk.js.map": "/ubereats/static/js/2.376b2dff.chunk.js.map",
+    "static/js/2.6ebb767f.chunk.js": "/ubereats/static/js/2.6ebb767f.chunk.js",
+    "static/js/2.6ebb767f.chunk.js.map": "/ubereats/static/js/2.6ebb767f.chunk.js.map",
     "index.html": "/ubereats/index.html",
-    "precache-manifest.400c44c1fba32c0c369cf8d01602750f.js": "/ubereats/precache-manifest.400c44c1fba32c0c369cf8d01602750f.js",
+    "precache-manifest.eb024908a6aab2892b13b4562de9c6ad.js": "/ubereats/precache-manifest.eb024908a6aab2892b13b4562de9c6ad.js",
     "service-worker.js": "/ubereats/service-worker.js",
     "static/css/2.510409cd.chunk.css.map": "/ubereats/static/css/2.510409cd.chunk.css.map",
-    "static/css/main.b100e6da.chunk.css.map": "/ubereats/static/css/main.b100e6da.chunk.css.map",
-    "static/media/logo.svg": "/ubereats/static/media/logo.25bf045c.svg"
+    "static/css/main.edf89490.chunk.css.map": "/ubereats/static/css/main.edf89490.chunk.css.map",
+    "static/media/jumbo.png": "/ubereats/static/media/jumbo.2dacc7ea.png",
+    "static/media/okmarket.png": "/ubereats/static/media/okmarket.7effc29e.png",
+    "static/media/tottu.png": "/ubereats/static/media/tottu.5ffd0b32.png"
   }
 }
