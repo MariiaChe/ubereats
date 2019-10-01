@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './NavbarTop.css'
 import ArrowB from '../img/atras.png'
 import ArrowD from '../img/abajo.png'
+
 class NavbarTop extends Component{
     render(){
         return(
