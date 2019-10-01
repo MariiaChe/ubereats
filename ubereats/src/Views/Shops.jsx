@@ -5,8 +5,10 @@ class Shops extends Component{
     render(){
         return(
             <React.Fragment>
-                 <ShopsList />
-                 <NavbarBottom/>
+                <div className="content">
+                    <ShopsList />
+                </div>
+                    <NavbarBottom/>
             </React.Fragment>
         )
     }
