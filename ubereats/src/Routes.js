@@ -1,10 +1,12 @@
 import React from 'react';
-import { Switch, Route} from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import Shops from './Views/Shops'
+import Items from './Views/Items'
 const Routes = () => {
     return(
         <Switch>
             <Route exact path='/' component = {Shops}/> 
+            <Route path='/items' component = {Items}/>
         </Switch>
     )
 }
