@@ -1,251 +1,302 @@
 {
 "Pasillos":{
-    "Lácteos":{
-        "Leches":[
-            {  "name":"Soprole - Leche Entera ",
-                "value":620 ,
-                "peso":"1 L" ,
-                "url" : ""
-            },
-            {   "name":"Lonco Leche - Leche  Sin lactosa Descremada",
-                "value":790,
-                "peso":"1 L" ,
-                "url" : ""
-            },
-            {   "name":"Colun- Leche Sin lactosa",
-                "value":790 ,
-                "peso":"1 L" ,
-                "url" : ""
-            },
-           {  "name":"Lonco Leche - Leche  Sin lactosa Chocolate Descremada",
-                "value":990,
-                "peso":"1 L" ,
-                "url" : ""
-                } ,
-                { "name":"Soprole- Leche Descremada",
-                 "value":690,
-                  "peso":"1 L" ,
-                  "url" : ""
-                    } ,
-             {  "name":"Colun - Leche Entera",
-                 "value":670,
-                 "peso":"1 L" ,
-                 "url" : ""
-                    } ,
-           {  "name":"Soprole - Leche Chocolate Semidescremada",
-                "value":990,
-                 "peso":"1 L" ,
-                "url" : ""
-                       } ,
-            {  "name":"Soprole -Leche ZeroLacto Descremada",
-                 "value":790,
-                 "peso":"1 L" ,
-                 "url" : ""
-                       } ,
-             {  "name":"Svelty - Leche en polvo Sin lactosa Descremada",
-                 "value":4290,
-                 "peso":"800 gr" ,
-                 "url" : ""
-                       } ,
-           {   "name":"Vital - Leche Sin lactosa",
-                 "value":890,
-                 "peso":"1 L" ,
-                  "url" : "" }],
-
-        "Quesos" : [
-             { "name":"Colun - Queso rallado",
-                 "value": 575,
-                 "peso":" 40 gr",
-                 "url" : ""
-                 } ,
-                 { "name":"Quillayes - Queso ricotta",
-                    "value": 4159,
-                    "peso":" 500 gr gr",
-                    "url" : ""
-                    } ,
-                    { "name":"Colun - Queso rallado",
-                        "value": 575,
-                        "peso":" 40 gr",
-                        "url" : ""
-                        }
-                ]},
-                "Mantequillas" : [
-                    {  "name":"Soprole -Margarina con leche ",
-                        "value":1111,
-                        "peso":"500 gr" ,
-                        "url" : ""
-                        } ,
-                        {  "name":"Calo-Mantequilla untable",
-                            "value":1919,
-                            "peso":"350 gr" ,
-                            "url" : ""
-                            } ,
-                            {  "name":"Soprole-Mantequilla Sin Sal",
+            "Lácteos":{
+                "Leches":[ 
+                            {  
+                                "name":"Soprole - Leche Entera ",
+                                "value":620 ,
+                                "peso":"1 L" ,
+                                "url" : ""
+                            },
+                            {   
+                                "name":"Lonco Leche - Leche  Sin lactosa Descremada",
+                                "value":790,
+                                "peso":"1 L" ,
+                                "url" : ""
+                            },
+                            {   
+                                "name":"Colun- Leche Sin lactosa",
+                                "value":790 ,
+                                "peso":"1 L" ,
+                                "url" : ""
+                            },
+                            {    
+                                "name":"Lonco Leche - Leche  Sin lactosa Chocolate Descremada",
+                                    "value":990,
+                                    "peso":"1 L" ,
+                                    "url" : ""
+                            },
+                            {   
+                                "name":"Soprole- Leche Descremada",
+                                "value":690,
+                                "peso":"1 L" ,
+                                "url" : ""
+                            },
+                            { 
+                                "name":"Colun - Leche Entera",
+                                "value":670,
+                                "peso":"1 L" ,
+                                "url" : ""
+                            },
+                            {  
+                                "name":"Soprole - Leche Chocolate Semidescremada",
+                                "value":990,
+                                "peso":"1 L" ,
+                                "url" : ""
+                            },
+                            {      
+                                "name":"Soprole -Leche ZeroLacto Descremada",
+                                "value":790,
+                                "peso":"1 L" ,
+                                "url" : ""
+                                    
+                            },
+                            {    
+                                "name":"Svelty - Leche en polvo Sin lactosa Descremada",
+                                "value":4290,
+                                "peso":"800 gr" ,
+                                "url" : ""
+                                    
+                            },
+                            {   
+                                "name":"Vital - Leche Sin lactosa",
+                                "value":890,
+                                "peso":"1 L" ,
+                                "url" : ""
+                            }
+                        ],
+                "Quesos":[
+                            { 
+                                "name":"Colun - Queso rallado",
+                                "value": 575,
+                                "peso":" 40 gr",
+                                "url" : ""
+                            },
+                            { 
+                                "name":"Quillayes - Queso ricotta",
+                                "value": 4159,
+                                "peso":" 500 gr gr",
+                                "url" : ""
+                            },
+                            { 
+                                "name":"Colun - Queso rallado",
+                                "value": 575,
+                                "peso":" 40 gr",
+                                "url" : ""
+                            }
+                        ],
+        "Mantequillas": [
+                            {  
+                                "name":"Soprole -Margarina con leche ",
+                                "value":1111,
+                                "peso":"500 gr" ,
+                                "url" : ""
+                            },
+                            { 
+                                "name":"Calo-Mantequilla untable",
+                                "value":1919,
+                                "peso":"350 gr" ,
+                                "url" : ""
+                            },
+                            {  
+                                "name":"Soprole-Mantequilla Sin Sal",
                                 "value":1690,
                                 "peso":"250 gr" ,
                                 "url" : ""
-                                } 
-                ]}  , 
-        "Frutas y verduras":{
-           "frutas" : [
-            {  "name":"Limón malla",
-                "value":590,
-                "peso":"1 Kg" ,
-                "url" : ""
-                } ,
-            {   "name":"Palta Hass Malla",
-                "value":1.000,
-                "peso":" 700 gr ",
-                "url" : ""
-            },
-            {  "name":"Manzana roja Bolsa",
-                "value":1.190,
-                "peso":"1 kg ",
-                "url" : ""
-                },
-            {   "name":"Manzana verde Bolsa",
-                    "value":1.190 ,
-                    "peso":"1 Kg",
-                    "url" : ""
-                },
-            {   "name":"Plátano Extra",
-                "value":890 ,
-                "peso":"1 Kg",
-                "url" : ""
-            },
-                { "name":"Limón sútil",
-                "value":1.190,
-                "peso": "1 Kg",
-                "url" : ""
-            },
-            {   "name":"Limón Granel",
-                "value":990 ,
-                "peso":"1 Kg" ,
-                "url" : ""
-            },
-                { "name":"Pomelo Rosado",
-                "value":1.190,
-                "peso":"1 Kg",
-                "url" : ""
-            },
-            {   "name":" Naranja Malla",
-                "value":1.190 ,
-                "peso":"1 kg ",
-                "url" : ""
-            },
-                { "name":"Huesillo Deshidratado",
-                "value":3.990,
-                "peso":" 500 gr ",
-                "url" : ""
-            }
-         
-            ] },
-         "Bebidas y licores": {
-        "Bebidas": [
-            {  "name":"Bebida Desechable Light",
-                "value":1.200,
-                "peso":"1 L",
-                "url" : ""
-                } ,
-            {   "name":"Bebida Desechable ",
-                "value":1.000,
-                "peso":"1 L",
-                "url" : ""
-            },
-            {  "name":"Agua Mineral Sin Gas",
-                "value":690,
-                "peso":"1 L",
-                "url" : ""
-                },
-            {   "name":"Vino Tinto Syrah",
-                    "value":7.990 ,
-                    "peso":"1,5 lt"
-                },
-            {   "name":"Bebida Desechable Xtrem",
-                "value":890 ,
-                "peso":"1 L",
-                "url" : ""
-            },
-                { "name":"Bebida energética ",
-                "value":1.490,
-                "peso": "1,5 lt",
-                "url" : ""
-            },
-            {   "name":"Bebida Agua Tónica",
-                "value":1.399 ,
-                "peso":"1 L",
-                "url" : ""
-            },
-                { "name":"Cerveza Pack X 24",
-                "value":13.990,
-                "peso":"24 x 335",
-                "url" : ""
-            },
-            {   "name":" Coctel Sour",
-                "value":1.190 ,
-                "peso": "700 ml",
-                "url" : ""
-            },
-                { "name":"Bebida Isotónica Sabor Cool Blue",
-                "value":1.139,
-                "peso":"1 L",
-                "url" : ""
-            }
-        ] },
-        "Aseo y limpieza":{
-                "Aseo y limpieza" :  [
-            {  "name":"Papel Higiénico Soft Care",
-                "value": 8.690,
-                "peso":"18 un",
-                "url" : ""
-                } ,
-            {   "name":"Bolsa de Basura 110 x 120 cms",
-                "value":5.199,
-                "peso":"5 un",
-                "url" : ""
-            },
-            {  "name":"Cloro aroma Lavanda",
-                "value":1.589,
-                "peso":"1,9 kg",
-                "url" : ""
-                },
-            {   "name":"Limpiador Cloro Gel Limón",
-                    "value":1.589 ,
-                    "peso":"900 ml"
-                },
-            {   "name":"Lavalozas limón",
-                "value":2.769 ,
-                "peso":"500 ml",
-                "url" : ""
-            },
-                { "name":"Limpiador Crema",
-                "value":1699,
-                "peso": "750 gr",
-                "url" : ""
-            },
-            {   "name":"Drive - Detergente Matic en Polvo",
-                "value":11.790 ,
-                "peso":"3 kg",
-                "url" : ""
-            },
-                { "name":"Ariel - Detergente en Polvo",
-                "value":10.990,
-                "peso":"24 x 335",
-                "url" : ""
-            },
-            {   "name":"Limpiapisos Lavanda Lysoform ",
-                "value":1.300 ,
-                "peso": "900 ml",
-                "url" : ""
-            },
-                { "name":"Lisoform - Aerosol Desinfectante",
-                "value":3.759,
-                "peso":"2 un x 360 ml",
-                "url" : ""
-            }
-        ]
-                
-        }
-    }
+                            } 
+                        ]
+                    }, 
+"Frutas y verduras":{
+            "frutas" : [
+                            {  
+                                "name":"Limón malla",
+                                "value":590,
+                                "peso":"1 Kg" ,
+                                "url" : ""
+                            },
+                            {   
+                                "name":"Palta Hass Malla",
+                                "value":1.000,
+                                "peso":" 700 gr ",
+                                "url" : ""
+                            },
+                            {  
+                                "name":"Manzana roja Bolsa",
+                                "value":1.190,
+                                "peso":"1 kg ",
+                                "url" : ""
+                            },
+                            {   
+                                "name":"Manzana verde Bolsa",
+                                "value":1.190 ,
+                                "peso":"1 Kg",
+                                "url" : ""
+                            },
+                            {   
+                                "name":"Plátano Extra",
+                                "value":890 ,
+                                "peso":"1 Kg",
+                                "url" : ""
+                            },
+                            { 
+                                "name":"Limón sútil",
+                                "value":1.190,
+                                "peso": "1 Kg",
+                                "url" : ""
+                            },
+                            {   
+                                "name":"Limón Granel",
+                                "value":990 ,
+                                "peso":"1 Kg" ,
+                                "url" : ""
+                            },
+                            { 
+                                "name":"Pomelo Rosado",
+                                "value":1.190,
+                                "peso":"1 Kg",
+                                "url" : ""
+                            },
+                            {   
+                                "name":" Naranja Malla",
+                                "value":1.190 ,
+                                "peso":"1 kg ",
+                                "url" : ""
+                            },
+                            { 
+                                "name":"Huesillo Deshidratado",
+                                "value":3.990,
+                                "peso":" 500 gr ",
+                                "url" : ""
+                            }
     
+                        ] 
+                    },
+"Bebidas y licores": {
+            "Bebidas": [
+                            {  
+                                "name":"Bebida Desechable Light",
+                                "value":1.200,
+                                "peso":"1 L",
+                                "url" : ""
+                            },
+                            {   
+                                "name":"Bebida Desechable ",
+                                "value":1.000,
+                                "peso":"1 L",
+                                "url" : ""
+                            },
+                            {  
+                                "name":"Agua Mineral Sin Gas",
+                                "value":690,
+                                "peso":"1 L",
+                                "url" : ""
+                            },
+                            {   
+                                "name":"Vino Tinto Syrah",
+                                "value":7.990 ,
+                                "peso":"1,5 lt"
+                            },
+                            {   
+                                "name":"Bebida Desechable Xtrem",
+                                "value":890 ,
+                                "peso":"1 L",
+                                "url" : ""
+                            },
+                            { 
+                                "name":"Bebida energética ",
+                                "value":1.490,
+                                "peso": "1,5 lt",
+                                "url" : ""
+                            },
+                            {   "name":"Bebida Agua Tónica",
+                                "value":1.399 ,
+                                "peso":"1 L",
+                                "url" : ""
+                            },
+                            { 
+                                "name":"Cerveza Pack X 24",
+                                "value":13.990,
+                                "peso":"24 x 335",
+                                "url" : ""
+                            },
+                            {  
+                                "name":" Coctel Sour",
+                                "value":1.190 ,
+                                "peso": "700 ml",
+                                "url" : ""
+                            },
+                            { 
+                                "name":"Bebida Isotónica Sabor Cool Blue",
+                                "value":1.139,
+                                "peso":"1 L",
+                                "url" : ""
+                            }
+                        ] 
+                    },
+    "Aseo y limpieza":{
+    "Aseo y limpieza" :[
+                            {  
+                                "name":"Papel Higiénico Soft Care",
+                                "value": 8.690,
+                                "peso":"18 un",
+                                "url" : ""
+                            },
+                            {   
+                                "name":"Bolsa de Basura 110 x 120 cms",
+                                "value":5.199,
+                                "peso":"5 un",
+                                "url" : ""
+                            },
+                            {  
+                                "name":"Cloro aroma Lavanda",
+                                "value":1.589,
+                                "peso":"1,9 kg",
+                                "url" : ""
+                            },
+                            {   
+                                "name":"Limpiador Cloro Gel Limón",
+                                "value":1.589 ,
+                                "peso":"900 ml"
+                            },
+                            {   
+                                "name":"Lavalozas limón",
+                                "value":2.769 ,
+                                "peso":"500 ml",
+                                "url" : ""
+                            },
+                            { 
+                                "name":"Limpiador Crema",
+                                "value":1699,
+                                "peso": "750 gr",
+                                "url" : ""
+                            },
+                            {   
+                                "name":"Drive - Detergente Matic en Polvo",
+                                "value":11.790 ,
+                                "peso":"3 kg",
+                                "url" : ""
+                            },
+                            {   
+                                "name":"Ariel - Detergente en Polvo",
+                                "value":10.990,
+                                "peso":"24 x 335",
+                                "url" : ""
+                            },
+                            {   
+                                "name":"Limpiapisos Lavanda Lysoform ",
+                                "value":1.300 ,
+                                "peso": "900 ml",
+                                "url" : ""
+                            },
+                            { 
+                                "name":"Lisoform - Aerosol Desinfectante",
+                                "value":3.759,
+                                "peso":"2 un x 360 ml",
+                                "url" : ""
+                            }
+                        ]
+        
+                    }
+    }
+}   
     
