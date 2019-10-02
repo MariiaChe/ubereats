@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e930e0e25602baa2f6fa133b440bcaa7",
+    "revision": "c790642010a9bc52cbcda7288bbeb70f",
     "url": "/ubereats/index.html"
   },
   {
-    "revision": "0fbf89d46e50e73419e0",
+    "revision": "9273e76b215c310e2d16",
     "url": "/ubereats/static/css/2.510409cd.chunk.css"
   },
   {
-    "revision": "4cac407bb920ad9ca01f",
-    "url": "/ubereats/static/css/main.2e6100be.chunk.css"
+    "revision": "3618fb9878bf40fbc04e",
+    "url": "/ubereats/static/css/main.0f7d73b1.chunk.css"
   },
   {
-    "revision": "0fbf89d46e50e73419e0",
-    "url": "/ubereats/static/js/2.c454b5e2.chunk.js"
+    "revision": "9273e76b215c310e2d16",
+    "url": "/ubereats/static/js/2.6159f108.chunk.js"
   },
   {
-    "revision": "4cac407bb920ad9ca01f",
-    "url": "/ubereats/static/js/main.1e46fac6.chunk.js"
+    "revision": "3618fb9878bf40fbc04e",
+    "url": "/ubereats/static/js/main.ce78d30f.chunk.js"
   },
   {
     "revision": "8aaed043052bf5b7f515",
