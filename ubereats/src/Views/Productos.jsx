@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import NavbarTopCategories from '../Components/NavbarTopCategories'
+import NavbarTopLacteos  from '../Components/NavbarTopLacteos'
 import ItemList from '../Components/ItemList'
 class Productos extends Component{
     render(){
         return(
             <React.Fragment>
-                <NavbarTopCategories/>
+                <NavbarTopLacteos/>
                 <div className="content container">
                   <ItemList/>
                 </div>
