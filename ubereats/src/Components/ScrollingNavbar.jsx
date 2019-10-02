@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './ScrollingNavbar.css'
+import Supermarket from '../supermarket.json'
+
 
 class ScrollingNavbar extends Component{
     render(){
@@ -7,13 +9,7 @@ class ScrollingNavbar extends Component{
             <div class="container">
             <nav class="menu-wrapper">
               <ul class="menu">
-                <li><a href="#">Item One</a></li>
-                <li><a href="#">Item Two</a></li>
-                <li><a href="#">Item Three</a></li>
-                <li><a href="#">Item Four</a></li>
-                <li><a href="#">Item Five</a></li>
-                <li><a href="#">Item Six</a></li>
-                <li><a href="#">Item Seven</a></li>
+               <li>{Object.keys(Supermarket.Pasillos)}</li>
               </ul>
             </nav>
             </div>
