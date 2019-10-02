@@ -1,0 +1,12 @@
+.ButtonAdd{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+  
+    border-radius:8px;
+    background-color:#3C9C23;
+    color: white;
+    width: 120px;
+    height: 30px;
+    border: none;
+}
