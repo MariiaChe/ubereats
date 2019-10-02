@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
-import './NavbarTopCategories.css'
-import ArrowB from '../img/atras.png'
+import './NavbarTopLacteos.css';
+import ArrowB from '../img/atras.png';
 import { Link } from 'react-router-dom';
 
-class NavbarTopCategories extends Component{ 
+class NavbarTopLacteos extends Component{ 
     render(){
         return( 
             <div id="navbartopcat" className="header">
                 <div className="container">
                    <div className="row">
-                   <Link to="/"><img  className="arrowb" src={ArrowB} alt="arrow to back"/></Link>
-                       <p>Tottus</p>
+                   <Link to="/categories"><img  className="arrowb" src={ArrowB} alt="arrow to back"/></Link>
+                       <p>Lacteos</p>
                     </div>  
                 </div>
             </div>
         )
     }
 } 
-export default NavbarTopCategories
+export default NavbarTopLacteos

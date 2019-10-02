@@ -1,87 +1,62 @@
 import React, { Component } from 'react';
 import './ShopsList.css'
-import Tottus from '../img/tottu.png'
-import Jumbo from '../img/jumbo.png'
-import Lider from '../img/lider.png'
-import OK from '../img/okmarket.png'
 import { Link } from 'react-router-dom';
-// import Shop from './Shop'
+import images from '../ImportImages'
+
 class ShopsList extends Component{
     render(){
         return(
             <div id="shopslist" className="container">
                 <div className="row">
                         <div className="shops">
-                        <Link to="/categories"><img className="img-fluid" src={Tottus} alt="Tottus"/></Link>
+                        <Link to="/categories"><img className="img-fluid" src={images['tottu.png']} alt="Tottus"/></Link>
+                        </div>
+                        <div className="shops">
+                            <img className="img-fluid" src={images['jumbo.png']} alt="Jumbo"/>
+                        </div>
+                        <div className="shops">
+                            <img className="img-fluid" src={images['lider.png']} alt="Lider"/>
+                        </div>
+                        <div className="shops">
+                            <img className="img-fluid" src={images['okmarket.png']} alt="OkMarket"/>
+                        </div>
+                        <div className="shops">
+                            <img className="img-fluid" src={images['tottu.png']} alt="Tottus"/>
+                        </div>                
+                        <div className="shops">
+                            <img className="img-fluid" src={images['jumbo.png']} alt="Jumbo"/>
+                        </div>
+                        <div className="shops">
+                            <img className="img-fluid" src={images['lider.png']} alt="Lider"/>
                         </div>
                    
                     
                         <div className="shops">
-                            <img className="img-fluid" src={Jumbo} alt="Jumbo"/>
-                        </div>
-                   
-                    
-                        <div className="shops">
-                            <img className="img-fluid" src={Lider} alt="Lider"/>
-                        </div>
-                   
-                    
-                        <div className="shops">
-                            <img className="img-fluid" src={OK} alt="OkMarket"/>
+                            <img className="img-fluid" src={images['okmarket.png']} alt="OkMarket"/>
                         </div>
                         <div className="shops">
-                            <img className="img-fluid" src={Tottus} alt="Tottus"/>
-                        </div>
-                   
-                    
-                        <div className="shops">
-                            <img className="img-fluid" src={Jumbo} alt="Jumbo"/>
-                        </div>
-                   
-                    
-                        <div className="shops">
-                            <img className="img-fluid" src={Lider} alt="Lider"/>
-                        </div>
-                   
-                    
-                        <div className="shops">
-                            <img className="img-fluid" src={OK} alt="OkMarket"/>
+                            <img className="img-fluid" src={images['tottu.png']} alt="Tottus"/>
                         </div>
                         <div className="shops">
-                            <img className="img-fluid" src={Tottus} alt="Tottus"/>
-                        </div>
-                   
-                    
-                        <div className="shops">
-                            <img className="img-fluid" src={Jumbo} alt="Jumbo"/>
-                        </div>
-                   
-                    
-                        <div className="shops">
-                            <img className="img-fluid" src={Lider} alt="Lider"/>
-                        </div>
-                   
-                    
-                        <div className="shops">
-                            <img className="img-fluid" src={OK} alt="OkMarket"/>
+                            <img className="img-fluid" src={images['jumbo.png']} alt="Jumbo"/>
                         </div>
                         <div className="shops">
-                            <img className="img-fluid" src={Tottus} alt="Tottus"/>
+                            <img className="img-fluid" src={images['lider.png']} alt="Lider"/>
                         </div>
-                   
-                    
                         <div className="shops">
-                            <img className="img-fluid" src={Jumbo} alt="Jumbo"/>
+                            <img className="img-fluid" src={images['okmarket.png']} alt="OkMarket"/>
                         </div>
-                   
-                    
                         <div className="shops">
-                            <img className="img-fluid" src={Lider} alt="Lider"/>
+                            <img className="img-fluid" src={images['tottu.png']} alt="Tottus"/>
                         </div>
-                   
-                    
                         <div className="shops">
-                            <img className="img-fluid" src={OK} alt="OkMarket"/>
+                            <img className="img-fluid" src={images['jumbo.png']} alt="Jumbo"/>
+                        </div>
+                        <div className="shops">
+                            <img className="img-fluid" src={images['lider.png']} alt="Lider"/>
+                        </div>
+                        <div className="shops">
+                            <img className="img-fluid" src={images['okmarket.png']} alt="OkMarket"/>
                         </div>
                      
                    

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NavbarTopCategories from '../Components/NavbarTopCategories'
+import NavbarTopLacteos  from '../Components/NavbarTopLacteos'
 import ItemList from '../Components/ItemList'
 import ScrollingNavbar from '../Components/ScrollingNavbar'
 import Supermarket from '../supermarket.json'
@@ -11,8 +11,12 @@ class Productos extends Component{
         
         return(
             <React.Fragment>
-                <NavbarTopCategories/>
+
+                <NavbarTopLacteos/>
                 <ScrollingNavbar/>
+
+               
+
                 <div className="content container">
                   <ItemList/>
                 </div>
