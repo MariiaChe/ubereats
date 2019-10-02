@@ -1,0 +1,50 @@
+ .Item{
+    width: 145px;
+    height: 205px; 
+    margin: 2vw;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+ }
+ .heart{
+     display: flex;
+     flex-direction: row;
+     justify-content:flex-end;
+
+ }
+ .heart img{
+     margin:7px;
+     width: 20px;
+     height: 19px;
+ }
+ .Itemimg{
+    display: flex;
+   justify-content: center;
+  
+ }
+ .Itemimg img{
+     margin-top:-25px;
+     width: 60%;
+ }
+ .Itemname p{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    margin-top:8px;
+    margin-bottom:0;
+    line-height: 1.1;
+ }
+ .Itemweight p{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 10px;
+    line-height: 1.4;
+    margin-bottom:0;
+
+ }
+ .Itemprice p{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom:0;
+    margin-top: 0px;
+ }
