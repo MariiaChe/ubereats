@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
-import './NavbarTopCategories.css'
+import './NavbarTopFavorite.css'
 import ArrowB from '../img/atras.png'
 import { Link } from 'react-router-dom';
 
-class NavbarTopCategories extends Component{ 
+class NavbarTopFavorite extends Component{ 
     render(){
         return(  
-            <div id="navbartopcat" className="header">
+            <div id="navbartopfav" className="header">
                 <div className="container">
                    <div className="row">
-                   <Link to="/"><img  className="arrowb" src={ArrowB} alt="arrow to back"/></Link>
-                       <p>Tottus</p>
+                   <Link to="/categories"><img  className="arrowb" src={ArrowB} alt="arrow to back"/></Link>
+                       <p>Lista de favoritos</p>
                     </div>  
                 </div>
             </div>
         )
     }
 } 
-export default NavbarTopCategories
+export default NavbarTopFavorite
