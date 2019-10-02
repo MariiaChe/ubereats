@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ShopsList from '../Components/ShopsList'
 import NavbarTop from '../Components/NavbarTop'
+
 class Shops extends Component{
     render(){
         return(
