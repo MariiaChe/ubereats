@@ -6,10 +6,13 @@ import Supermarket from '../supermarket.json'
 class ScrollingNavbar extends Component{
     render(){
         return(
-            <div class="container">
-            <nav class="menu-wrapper">
-              <ul class="menu">
-               <li>{Object.keys(Supermarket.Pasillos)}</li>
+            <div className="container">
+            <nav className="menu-wrapper">
+              <ul className="menu">
+               <li><a href="#">Leches</a></li>
+               <li><a href="#">Quesos</a></li>
+               <li><a href="#">Mantequillas</a></li>
+               <li><a href="#">Cremas</a></li>
               </ul>
             </nav>
             </div>
