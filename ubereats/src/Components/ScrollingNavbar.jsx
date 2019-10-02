@@ -6,7 +6,7 @@ import Supermarket from '../supermarket.json'
 class ScrollingNavbar extends Component{
     render(){
         return(
-            <div className="container">
+            <div className="cont">
             <nav className="menu-wrapper">
               <ul className="menu">
                <li><a href="#">Leches</a></li>
