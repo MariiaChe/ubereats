@@ -6,7 +6,7 @@ class Category extends Component{
             <React.Fragment>
               
                         <div className="category">
-                            hola
+                            Lácteos
                         </div>
                   
             </React.Fragment>
