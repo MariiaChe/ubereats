@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 import ButtonFavorite from '../Components/ButtonFavorite'
 class Categories extends Component{
     render(){ 
-        return(
+        return( 
             <React.Fragment>
                 <NavbarTopCategories/>
                 <div id="categories" className="content container">

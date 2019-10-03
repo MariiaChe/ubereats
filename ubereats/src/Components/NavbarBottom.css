@@ -1,21 +1,21 @@
-.footer {
+#ButtonPedido.footer {
    background:  #3C9C23;
    height: 8%;
    font-size:100%; 
    padding: 2%;
 }
-button{
+#ButtonPedido button{
    background: transparent;
    border: none;
-   color: white;
+   color: white; 
    height: 110%;
    width:200%;
 }
-p{
+#ButtonPedido p{
 margin-right: 7%;
 margin-left:5%
 }
-a{
+#ButtonPedido a{
    margin-left: 1%;
    margin-right: 8%;
    background-color: white;
