@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c790642010a9bc52cbcda7288bbeb70f",
+    "revision": "0217a89e34400af23b3bd3c5e3230891",
     "url": "/ubereats/index.html"
   },
   {
-    "revision": "9273e76b215c310e2d16",
+    "revision": "a4944e1aefcb67c09607",
     "url": "/ubereats/static/css/2.510409cd.chunk.css"
   },
   {
-    "revision": "3618fb9878bf40fbc04e",
-    "url": "/ubereats/static/css/main.0f7d73b1.chunk.css"
+    "revision": "431cf06e97bceeef90a3",
+    "url": "/ubereats/static/css/main.fd430998.chunk.css"
   },
   {
-    "revision": "9273e76b215c310e2d16",
-    "url": "/ubereats/static/js/2.6159f108.chunk.js"
+    "revision": "a4944e1aefcb67c09607",
+    "url": "/ubereats/static/js/2.6a18ab81.chunk.js"
   },
   {
-    "revision": "3618fb9878bf40fbc04e",
-    "url": "/ubereats/static/js/main.ce78d30f.chunk.js"
+    "revision": "431cf06e97bceeef90a3",
+    "url": "/ubereats/static/js/main.518bca8e.chunk.js"
   },
   {
     "revision": "8aaed043052bf5b7f515",
@@ -26,6 +26,42 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b7a274c66da21c01670a3ff466e24add",
     "url": "/ubereats/static/media/LecheColunEntera.b7a274c6.png"
+  },
+  {
+    "revision": "705ebc02b2cb7b01acd1353340d16837",
+    "url": "/ubereats/static/media/LecheColunSinL.705ebc02.png"
+  },
+  {
+    "revision": "52b7f3c0e06ba0cf4cb3b22d831fd38a",
+    "url": "/ubereats/static/media/LecheLoncoDeskChoc.52b7f3c0.png"
+  },
+  {
+    "revision": "ab6549add4cb51a6c7fca6a97e32d43b",
+    "url": "/ubereats/static/media/LecheLoncoSinLactosaDes.ab6549ad.png"
+  },
+  {
+    "revision": "d80da609c15da35ca56972875d7fb179",
+    "url": "/ubereats/static/media/LecheSoprChocSemi.d80da609.png"
+  },
+  {
+    "revision": "777cddd50ea50a7a28cee8539509f167",
+    "url": "/ubereats/static/media/LecheSoproleDescr.777cddd5.png"
+  },
+  {
+    "revision": "89759d2126786bee78136ba110306c01",
+    "url": "/ubereats/static/media/LecheSoproleEnt.89759d21.png"
+  },
+  {
+    "revision": "9aaa8110949031d27cf2adee678f47c8",
+    "url": "/ubereats/static/media/LecheSoproleZeroL.9aaa8110.png"
+  },
+  {
+    "revision": "e42759fdeec15985f1d154b5fc5f2f52",
+    "url": "/ubereats/static/media/LecheSvetly.e42759fd.png"
+  },
+  {
+    "revision": "4083ad89bb254cd62ef915c68a7785b9",
+    "url": "/ubereats/static/media/LecheVital.4083ad89.png"
   },
   {
     "revision": "1c6f80897805b124e2262fd65df7a3ee",
