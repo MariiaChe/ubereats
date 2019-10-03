@@ -41,7 +41,7 @@ toggleButton(){
                   <img onClick={()=>this.toggleFavorite()} className="img-fluid" src={images["corazon-gris.png"]} alt="corazon gris"/>
                 }
                   </div>
-                <div className="Itemimg"><img  className="img-fluid" src={images[this.props.imageItem]} alt="imagen producto"/></div>
+                <div className="Itemimg"><img style={{width:this.props.width}}  className="img-fluid" src={images[this.props.imageItem]} alt="imagen producto"/></div>
                 <div className="Itemname"><p>{this.props.itemName}</p></div>
                 {/* <div className="Itemweight"><p>1000ml</p></div> */}
                 <div className="Itemprice"><p>{this.props.itemPrice}</p></div>
