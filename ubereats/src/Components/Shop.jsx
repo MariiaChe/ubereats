@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import Tottus from '../img/tottu.png'
+
 import './Shop.css'
 class Shop extends Component{
     render(){

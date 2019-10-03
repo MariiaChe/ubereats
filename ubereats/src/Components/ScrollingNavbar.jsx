@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './ScrollingNavbar.css'
-import Supermarket from '../supermarket.json'
+
 import { BrowserRouter as Router, Route, Link } from "react-router-dom"
 
 

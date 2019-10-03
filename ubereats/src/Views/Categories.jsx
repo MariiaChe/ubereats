@@ -3,14 +3,18 @@ import Category from '../Components/Category'
 import './Categories.css'
 import NavbarTopCategories from '../Components/NavbarTopCategories'
 import {Link} from 'react-router-dom'
+import ButtonFavorite from '../Components/ButtonFavorite'
 class Categories extends Component{
     render(){ 
-        return(
+        return( 
             <React.Fragment>
                 <NavbarTopCategories/>
                 <div id="categories" className="content container">
                     <div className="row">
-                       <Link className="link" to='/leches'><Category image="frescos.png" name="Frescos y Lácteos"/></Link>
+                    <Link to="/favoritos"><ButtonFavorite /></Link>
+                    </div>
+                    <div className="row">
+                       <Link className="link" to='/productos'><Category image="frescos.png" name="Frescos y Lácteos"/></Link>
                        <Category image="frutas.png" name="Frutas y Verduras"/>
                        <Category image="aseo.png" name="Aseo y Limpieza"/>
                        <Category image="dulces.png" name="Dulces y Desayuno"/>
