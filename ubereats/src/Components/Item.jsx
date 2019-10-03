@@ -11,7 +11,7 @@ class Item extends Component{
     this.state={
         isFavorite:false,
         isBtnAdd:true,
-        // quantityInInput:0
+        quantityInInput:0
     }
     this.toggleFavorite=this.toggleFavorite.bind(this)
     this.moreLessButton=this.moreLessButton.bind(this)
@@ -24,16 +24,15 @@ toggleFavorite(){
     isFavorite:!this.state.isFavorite
   })
 }
-moreLessButton(itemQuantity){
-  if(itemQuantity===0){
-    this.setState({
-      isBtnAdd:true
-    })
-  }else{
+moreLessButton(){
+ 
     this.setState({
       isBtnAdd:false
     })
-  }
+    this.setState({
+      quantityInInput:1
+    })
+  
     
   
 }
@@ -54,9 +53,9 @@ moreLessButton(itemQuantity){
                 <div className="Itemname"><p>{this.props.itemName}</p></div>
                 {/* <div className="Itemweight"><p>1000ml</p></div> */}
                 <div className="Itemprice"><p>{this.props.itemPrice}</p></div>
-                <div className="Itembutton" onClick={()=>this.moreLessButton(this.props.itemQuantity)}>
+                <div className="Itembutton" onClick={()=>this.moreLessButton()}>
                   {this.state.isBtnAdd?
-                  <ButtonAdd itemPrice={this.props.itemPrice} addFirst={this.props.addFirst}/>:
+                  <ButtonAdd  itemPrice={this.props.itemPrice} addToBasket={this.props.addToBasket}/>:
                   <ButtonMoreLess itemQuantity={this.props.itemQuantity} itemPrice={this.props.itemPrice} addToBasket={this.props.addToBasket} subtractFromBasket={this.props.subtractFromBasket}/>
                   }
                 </div>

@@ -4,7 +4,7 @@ class ButtonAdd extends Component{
     render(){
         return( 
             <React.Fragment>
-              <button onClick={()=>this.props.addFirst(this.props.itemPrice)} className="ButtonAdd">AGREGAR</button>   
+              <button key={this.props.idAdd} onClick={()=>this.props.addToBasket(this.props.itemPrice, this.props.itemQuantity)}  className="ButtonAdd">AGREGAR</button>   
             </React.Fragment>
         )
     }
