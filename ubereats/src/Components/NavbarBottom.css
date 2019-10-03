@@ -1,7 +1,8 @@
 .footer {
    background:  #3C9C23;
-   height: 7%;
-   font-size:110%; 
+   height: 8%;
+   font-size:100%; 
+   padding: 2%;
 }
 button{
    background: transparent;
@@ -11,10 +12,15 @@ button{
    width:200%;
 }
 p{
-margin-right: 3%;
-margin-left:3%
+margin-right: 7%;
+margin-left:5%
 }
 a{
-   margin-left: 3%;
-   margin-right: 3%;
+   margin-left: 1%;
+   margin-right: 8%;
+   background-color: white;
+   color:black;
+   width:3%;
+   height: 2%;
+   border-radius: 100%;
 }

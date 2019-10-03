@@ -5,7 +5,8 @@ class NavbarBottom extends Component{
         return(
             <div className="footer text-center ">
             <button className="row ml-4">
-            <a>1</a>
+                <div><a>1</a></div>
+            
                 <p>Ver Canasta</p>
                 <p>$000</p>
                 
