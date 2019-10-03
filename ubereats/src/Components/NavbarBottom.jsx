@@ -4,9 +4,18 @@ class NavbarBottom extends Component{
     render(){
         return(
             <div className="footer" id="navbottom">
-               <span className="oki">1</span>
-               <span>Ver Canasta</span>
-              <span className="price ml-1">$0</span>
+                <div id="canasta-total">
+                <div id="total-item">
+                        <span >{this.props.itemTotal}</span>
+                </div>
+                
+                <div id="canasta">
+                        <span>Ver Canasta</span>
+                </div>
+                <div id="total-price">
+                        <span>${this.props.sumaTotal}</span>
+                </div>
+                </div>
             </div>
         )
     }

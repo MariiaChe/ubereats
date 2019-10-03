@@ -39,7 +39,7 @@ toggleButton(){
                   { this.state.isFavorite?
                   <img onClick={()=>this.toggleFavorite()} className="img-fluid" src={images["corazon-rojo.png"]} alt="corazon rojo"/>:
                   <img onClick={()=>this.toggleFavorite()} className="img-fluid" src={images["corazon-gris.png"]} alt="corazon gris"/>
-                }
+                } 
                   </div>
                 <div className="Itemimg"><img style={{width:this.props.width}}  className="img-fluid" src={images[this.props.imageItem]} alt="imagen producto"/></div>
                 <div className="Itemname"><p>{this.props.itemName}</p></div>
@@ -47,7 +47,7 @@ toggleButton(){
                 <div className="Itemprice"><p>{this.props.itemPrice}</p></div>
                 <div className="Itembutton" onClick={()=>this.toggleButton()}>
                   {this.state.isBtnAdd?
-                  <ButtonAdd/>:
+                  <ButtonAdd itemPrice={this.props.itemPrice} addFirst={this.props.addFirst}/>:
                   <ButtonMoreLess/>
                   }
                 </div>

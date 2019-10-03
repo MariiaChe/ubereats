@@ -1,6 +1,6 @@
-#navbottom {
+/* #navbottom {
    background:  #3C9C23;
-   font-size:5vw;
+   font-size:13px;
    padding: 2%;
    height:8%;
    color:white;
@@ -16,11 +16,52 @@
    font-size: 88%;
    padding-left: 3%;
    padding-right: 3%;
-   padding-top:1%;
-   padding-bottom: 1%;
+   padding-top:2%;
+   padding-bottom: 2%;
 }
 #navbottom span {
    margin-right: 8%;
    margin-left: 8%;
    padding: 3%;
+} */
+#navbottom{
+   background: #3C9C23;
+   color:white;
+
+}
+#total-item{
+   display: flex;
+   justify-content: center;
+   position: relative;
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+   color:#3C9C23;
+   background-color: white;
+   margin:8px;
+}
+#total-item span{
+   position: absolute;
+   top:7px;
+}
+#canasta{
+   display: flex;
+   justify-content: center;
+   margin-top:10px;
+  
+}
+#canasta span{
+   font-size: 20px; 
+}
+#total-price{
+   margin-top:15px;
+   margin-right:8px;
+   display: flex;
+   justify-content: center;
+}
+#canasta-total{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+
 }

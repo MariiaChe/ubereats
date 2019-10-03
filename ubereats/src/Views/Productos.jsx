@@ -12,8 +12,19 @@ class Productos extends Component{
     constructor(props){
         super(props) 
         this.state={
-                mapNow:"Leches"
+                mapNow:"Leches",
+                countItemTotal:0,
+                countSumaTotal:0
               }  
+        this.addFirst= this.addFirst.bind(this)
+    }
+    addFirst(itemPrice){
+        this.setState({
+            countItemTotal:this.state.countItemTotal+1
+        })
+        this.setState({
+            countSumaTotal:this.state.countSumaTotal+itemPrice
+        })
     }
     changeMap(sub){
         this.setState({mapNow:sub})
@@ -34,9 +45,9 @@ class Productos extends Component{
                     </div>
                 {/* <ScrollingNavbar /> */}
                 <div className="content container">
-                  <ItemList sub={this.state.mapNow}/>
+                  <ItemList addFirst={this.addFirst} sub={this.state.mapNow}/>
                 </div>
-               <NavbarBottom/>
+               <NavbarBottom itemTotal={this.state.countItemTotal} sumaTotal={this.state.countSumaTotal}/>
             </React.Fragment>
         )
     }
