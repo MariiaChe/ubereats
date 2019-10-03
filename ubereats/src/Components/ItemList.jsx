@@ -23,7 +23,7 @@ class ItemList extends Component{
         return( 
             <React.Fragment>
               <div className="ItemList row">
-                {Data.Pasillos.Lacteos.Leches.map(el=><Item imageItem={el.url} itemName={el.name} itemPrice={"$"+el.value}/>)}
+                {Data.Pasillos.Lacteos.Leches.map(el=><Item width="60%" imageItem={el.url} itemName={el.name} itemPrice={"$"+el.value}/>)}
                 {/* <Item width="72%" imageItem="LecheColunEntera.png" itemName="Colun - Leche Entera" itemPrice="$850"/>
                 <Item width="72%" imageItem="LecheColunSinL.png" itemName="Colun -Leche sin Lac.." itemPrice="$980" />
                 <Item width="62%" imageItem="LecheLoncoDeskChoc.png" itemName="Colun - Leche Descremada Choc.." itemPrice="$780"/>

@@ -6,64 +6,52 @@
                                 "name":"Soprole - Leche Entera",
                                 "value":620 ,
                                 "peso":"1 L" ,
-                                "url" : "LecheSoproleEnt.png"
+                                "url" : "Leche01.png"
                             },
                             {   
                                 "name":"Lonco Leche - Leche Sin lacto...",
                                 "value":790,
                                 "peso":"1 L" ,
-                                "url" : "LecheLoncoSinLactosaDes.png"
+                                "url" : "Leche02.png"
                             },
                             {   
                                 "name":"Colun - Leche Sin lac...",
                                 "value":790 ,
                                 "peso":"1 L" ,
-                                "url" : "LecheColunSinL.png"
+                                "url" : "Leche03.png"
                             },
                             {    
                                 "name":"Lonco Leche - Leche Sin lac...",
                                     "value":990,
                                     "peso":"1 L" ,
-                                    "url" : "LecheLoncoDeskChoc.png"
+                                    "url" : "Leche04.png"
                             },
                             {   
                                 "name":"Soprole - Leche Descr...",
                                 "value":690,
                                 "peso":"1 L" ,
-                                "url" : "LecheSoproleDescr.png"
+                                "url" : "Leche05.png"
                             },
                             { 
-                                "name":"Colun - Leche Entera",
+                                "name":"Colun - Leche Entera ...",
                                 "value":670,
                                 "peso":"1 L" ,
-                                "url" : "LecheColunEntera.png"
+                                "url" : "Leche06.png"
                             },
                             {  
                                 "name":"Soprole - Leche Choco...",
                                 "value":990,
                                 "peso":"1 L" ,
-                                "url" : "LecheSoprChocSemi.png"
+                                "url" : "Leche07.png"
                             },
                             {      
-                                "name":"Soprole -Leche ZeroLacto Descremada",
+                                "name":"Soprole - Leche ZeroLa..",
                                 "value":790,
                                 "peso":"1 L" ,
-                                "url" : "LecheSoproleZeroL.png"
+                                "url" : "Leche08.png"
                                     
-                            },
-                            {    
-                                "name":"Svelty - Leche en polvo Sin lactosa Descremada",
-                                "value":4290,
-                                "peso":"800 gr" ,
-                                "url" : "LecheSvetly.png"
-                                    
-                            },
-                            {   
-                                "name":"Vital - Leche Sin lactosa",
-                                "value":890,
-                                "peso":"1 L" ,
-                                "url" : "LecheVital.jpg"
                             }
+                            
                         ],
                 "Quesos":[
                             { 

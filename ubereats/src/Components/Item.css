@@ -3,7 +3,8 @@
     width: 145px;
     height: 205px; 
     margin: 2vw;
-    border-radius: 5px; 
+    border-radius: 5px;
+    padding:0 5px 0 5px; 
     /* border: 1px solid #e6e5e2; */
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
  }
@@ -11,12 +12,15 @@
      display: flex;
      flex-direction: row;
      justify-content:flex-end;
+    
 
  }
  .heart img{
      margin:7px;
      width: 20px;
      height: 19px;
+     margin-right: 0;
+     
  }
  .Itemimg{
     display: flex;
