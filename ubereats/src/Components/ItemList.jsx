@@ -23,13 +23,11 @@ class ItemList extends Component{
         return( 
             <React.Fragment>
               <div className="ItemList row">
-                {Data.Pasillos.Lacteos.Leches.map(el=><Item width="60%" imageItem={el.url} itemName={el.name} itemPrice={"$"+el.value}/>)}
-                {/* <Item width="72%" imageItem="LecheColunEntera.png" itemName="Colun - Leche Entera" itemPrice="$850"/>
-                <Item width="72%" imageItem="LecheColunSinL.png" itemName="Colun -Leche sin Lac.." itemPrice="$980" />
-                <Item width="62%" imageItem="LecheLoncoDeskChoc.png" itemName="Colun - Leche Descremada Choc.." itemPrice="$780"/>
-                <Item width="51%"  imageItem="LecheSoproleDescr.png" itemName="Sopreole - Leche Descremada" itemPrice="$890" />
-                <Item width="62%"  imageItem="LecheLoncoSinLactosaDes.png" itemName="Lonco -Leche Sin Lact.." itemPrice="$1020" />
-                <Item width="51%"  imageItem="LecheSoproleEnt.png" itemName="Soprole - Leche Entera" itemPrice="$900"/> */}
+                
+              {Data.Pasillos.Lacteos[this.props.sub].map(el=><Item width="60%" imageItem={el.url} itemName={el.name} itemPrice={"$"+el.value}/>)}
+              {/* {Data.Pasillos.Lacteos.Quesos.map(el=><Item width="60%" imageItem={el.url} itemName={el.name} itemPrice={"$"+el.value}/>)}
+              {Data.Pasillos.Lacteos.Mantequillas.map(el=><Item width="60%" imageItem={el.url} itemName={el.name} itemPrice={"$"+el.value}/>)}
+              {Data.Pasillos.Lacteos.Cremas.map(el=><Item width="60%" imageItem={el.url} itemName={el.name} itemPrice={"$"+el.value}/>)} */}
               </div>
                   
             </React.Fragment>

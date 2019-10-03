@@ -58,19 +58,19 @@
                                 "name":"Colun - Queso rallado",
                                 "value": 575,
                                 "peso":" 40 gr",
-                                "url" : ""
+                                "url" : "Queso01.png"
                             },
                             { 
                                 "name":"Quillayes - Queso ricotta",
                                 "value": 4159,
-                                "peso":" 500 gr gr",
-                                "url" : ""
+                                "peso":" 500 gr",
+                                "url" : "Queso02.png"
                             },
                             { 
                                 "name":"Colun - Queso rallado",
                                 "value": 575,
                                 "peso":" 40 gr",
-                                "url" : ""
+                                "url" : "Queso03.png"
                             }
                         ],
         "Mantequillas": [
@@ -78,21 +78,42 @@
                                 "name":"Soprole -Margarina con leche ",
                                 "value":1111,
                                 "peso":"500 gr" ,
-                                "url" : ""
+                                "url" : "Mantequilla01.png"
                             },
                             { 
                                 "name":"Calo-Mantequilla untable",
                                 "value":1919,
                                 "peso":"350 gr" ,
-                                "url" : ""
-                            },
-                            {  
-                                "name":"Soprole-Mantequilla Sin Sal",
-                                "value":1690,
-                                "peso":"250 gr" ,
-                                "url" : ""
-                            } 
-                        ]
+                                "url" : "Mantequilla02.png"
+                            }
+                          
+                        ],
+        "Cremas": [
+            { 
+                "name":"Nestle -Crema de Leche",
+                "value": 200,
+                "peso":" 40 gr",
+                "url" : "Crema01.png"
+            },
+            { 
+                "name":"Nestle - Crema de Leche",
+                "value": 600,
+                "peso":" 500 gr",
+                "url" : "Crema02.png"
+            },
+            { 
+                "name":"Soprole - Crema de Leche",
+                "value": 1000,
+                "peso":" 40 gr",
+                "url" : "Crema03.png"
+            },
+            { 
+                "name":"Colun - Crema de Leche",
+                "value": 250,
+                "peso":" 40 gr",
+                "url" : "Crema04.png"
+            }
+        ]               
                     }, 
 "Frutas y verduras":{
             "frutas" : [
