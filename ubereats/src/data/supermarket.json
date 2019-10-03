@@ -6,49 +6,58 @@
                                 "name":"Soprole - Leche Entera",
                                 "value":620 ,
                                 "peso":"1 L" ,
-                                "url" : "Leche01.png"
+                                "url" : "Leche01.png",
+                                "id":"l01"
                             },
                             {   
                                 "name":"Lonco Leche - Leche Sin lacto...",
                                 "value":790,
                                 "peso":"1 L" ,
-                                "url" : "Leche02.png"
+                                "url" : "Leche02.png",
+                                "id":"l02"
                             },
                             {   
                                 "name":"Colun - Leche Sin lac...",
                                 "value":790 ,
                                 "peso":"1 L" ,
-                                "url" : "Leche03.png"
+                                "url" : "Leche03.png",
+                                "id":"l03"
                             },
                             {    
                                 "name":"Lonco Leche - Leche Sin lac...",
                                     "value":990,
                                     "peso":"1 L" ,
-                                    "url" : "Leche04.png"
+                                    "url" : "Leche04.png",
+                                    "id":"l04"
                             },
                             {   
                                 "name":"Soprole - Leche Descr...",
                                 "value":690,
                                 "peso":"1 L" ,
-                                "url" : "Leche05.png"
+                                "url" : "Leche05.png",
+                                "id":"l05"
                             },
                             { 
                                 "name":"Colun - Leche Entera ...",
                                 "value":670,
                                 "peso":"1 L" ,
-                                "url" : "Leche06.png"
+                                "url" : "Leche06.png",
+                                "id":"l06"
+
                             },
                             {  
                                 "name":"Soprole - Leche Choco...",
                                 "value":990,
                                 "peso":"1 L" ,
-                                "url" : "Leche07.png"
+                                "url" : "Leche07.png",
+                                "id":"l07"
                             },
                             {      
                                 "name":"Soprole - Leche ZeroLa..",
                                 "value":790,
                                 "peso":"1 L" ,
-                                "url" : "Leche08.png"
+                                "url" : "Leche08.png",
+                                "id":"l08"
                                     
                             }
                             
@@ -58,19 +67,22 @@
                                 "name":"Colun - Queso rallado",
                                 "value": 575,
                                 "peso":" 40 gr",
-                                "url" : "Queso01.png"
+                                "url" : "Queso01.png",
+                                "id":"q01"
                             },
                             { 
                                 "name":"Quillayes - Queso ricotta",
                                 "value": 4159,
                                 "peso":" 500 gr",
-                                "url" : "Queso02.png"
+                                "url" : "Queso02.png",
+                                "id":"q02"
                             },
                             { 
                                 "name":"Colun - Queso rallado",
                                 "value": 575,
                                 "peso":" 40 gr",
-                                "url" : "Queso03.png"
+                                "url" : "Queso03.png",
+                                "id":"q03"
                             }
                         ],
         "Mantequillas": [
@@ -78,13 +90,15 @@
                                 "name":"Soprole -Margarina con leche ",
                                 "value":1111,
                                 "peso":"500 gr" ,
-                                "url" : "Mantequilla01.png"
+                                "url" : "Mantequilla01.png",
+                                "id":"m01"
                             },
                             { 
                                 "name":"Calo-Mantequilla untable",
                                 "value":1919,
                                 "peso":"350 gr" ,
-                                "url" : "Mantequilla02.png"
+                                "url" : "Mantequilla02.png",
+                                "id":"m02"
                             }
                           
                         ],
@@ -93,25 +107,29 @@
                 "name":"Nestle -Crema de Leche",
                 "value": 200,
                 "peso":" 40 gr",
-                "url" : "Crema01.png"
+                "url" : "Crema01.png",
+                "id":"c01"
             },
             { 
                 "name":"Nestle - Crema de Leche",
                 "value": 600,
                 "peso":" 500 gr",
-                "url" : "Crema02.png"
+                "url" : "Crema02.png",
+                "id":"c02"
             },
             { 
                 "name":"Soprole - Crema de Leche",
                 "value": 1000,
                 "peso":" 40 gr",
-                "url" : "Crema03.png"
+                "url" : "Crema03.png",
+                "id":"c03"
             },
             { 
                 "name":"Colun - Crema de Leche",
                 "value": 250,
                 "peso":" 40 gr",
-                "url" : "Crema04.png"
+                "url" : "Crema04.png",
+                "id":"c04"
             }
         ]               
                     }, 
