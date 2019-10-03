@@ -10,7 +10,7 @@ class NavbarTopLacteos extends Component{
                 <div className="container">
                    <div className="row">
                    <Link to="/categories"><img  className="arrowb" src={ArrowB} alt="arrow to back"/></Link>
-                       <p>Lacteos</p>
+                       <p>Lácteos</p>
                     </div>  
                 </div>
             </div>
