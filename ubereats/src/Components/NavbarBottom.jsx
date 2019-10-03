@@ -3,8 +3,10 @@ import './NavbarBottom.css'
 class NavbarBottom extends Component{
     render(){
         return(
-            <div id="ButtonPedido" className="footer">
-            hola
+            <div className="footer " id="navbottom">
+               <span className="oki">1</span>
+            <span>Ver Canasta</span>
+                <span className="price ml-1">$000</span>
             </div>
         )
     }
