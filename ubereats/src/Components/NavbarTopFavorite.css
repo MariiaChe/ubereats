@@ -1,0 +1,17 @@
+#navbartopfav p{
+   margin-left:20vw;
+   text-align: center;
+   font-family: 'Rubik', sans-serif;
+   font-size: 20px; 
+   margin-top:-3px;
+}
+#navbartopfav .row{
+    height: 35px;
+    margin-top:4px;
+    
+}
+.arrowb{
+    margin-left: 5px;
+    width: 14px;
+    height:14px; 
+}
