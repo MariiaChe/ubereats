@@ -10,10 +10,11 @@ class Item extends Component{
     super(props) 
     this.state={
         isFavorite:false,
-        isBtnAdd:true
+        isBtnAdd:true,
+        // quantityInInput:0
     }
     this.toggleFavorite=this.toggleFavorite.bind(this)
-    this.toggleButton=this.toggleButton.bind(this)
+    this.moreLessButton=this.moreLessButton.bind(this)
 
 
 
@@ -23,10 +24,18 @@ toggleFavorite(){
     isFavorite:!this.state.isFavorite
   })
 }
-toggleButton(){
-  this.setState({
-    isBtnAdd:!this.state.isBtnAdd
-  })
+moreLessButton(itemQuantity){
+  if(itemQuantity===0){
+    this.setState({
+      isBtnAdd:true
+    })
+  }else{
+    this.setState({
+      isBtnAdd:false
+    })
+  }
+    
+  
 }
 
 
@@ -40,15 +49,15 @@ toggleButton(){
                   <img onClick={()=>this.toggleFavorite()} className="img-fluid" src={images["corazon-rojo.png"]} alt="corazon rojo"/>:
                   <img onClick={()=>this.toggleFavorite()} className="img-fluid" src={images["corazon-gris.png"]} alt="corazon gris"/>
                 } 
-                  </div>
+                  </div> 
                 <div className="Itemimg"><img style={{width:this.props.width}}  className="img-fluid" src={images[this.props.imageItem]} alt="imagen producto"/></div>
                 <div className="Itemname"><p>{this.props.itemName}</p></div>
                 {/* <div className="Itemweight"><p>1000ml</p></div> */}
                 <div className="Itemprice"><p>{this.props.itemPrice}</p></div>
-                <div className="Itembutton" onClick={()=>this.toggleButton()}>
+                <div className="Itembutton" onClick={()=>this.moreLessButton(this.props.itemQuantity)}>
                   {this.state.isBtnAdd?
                   <ButtonAdd itemPrice={this.props.itemPrice} addFirst={this.props.addFirst}/>:
-                  <ButtonMoreLess/>
+                  <ButtonMoreLess itemQuantity={this.props.itemQuantity} itemPrice={this.props.itemPrice} addToBasket={this.props.addToBasket} subtractFromBasket={this.props.subtractFromBasket}/>
                   }
                 </div>
               </div>    

@@ -7,42 +7,48 @@
                                 "value":620 ,
                                 "peso":"1 L" ,
                                 "url" : "Leche01.png",
-                                "id":"l01"
+                                "id":"l01",
+                                "quantity":1
                             },
                             {   
                                 "name":"Lonco Leche - Leche Sin lacto...",
                                 "value":790,
                                 "peso":"1 L" ,
                                 "url" : "Leche02.png",
-                                "id":"l02"
+                                "id":"l02",
+                                "quantity":1
                             },
                             {   
                                 "name":"Colun - Leche Sin lac...",
                                 "value":790 ,
                                 "peso":"1 L" ,
                                 "url" : "Leche03.png",
-                                "id":"l03"
+                                "id":"l03",
+                                "quantity":1
                             },
                             {    
                                 "name":"Lonco Leche - Leche Sin lac...",
                                     "value":990,
                                     "peso":"1 L" ,
                                     "url" : "Leche04.png",
-                                    "id":"l04"
+                                    "id":"l04",
+                                    "quantity":1
                             },
                             {   
                                 "name":"Soprole - Leche Descr...",
                                 "value":690,
                                 "peso":"1 L" ,
                                 "url" : "Leche05.png",
-                                "id":"l05"
+                                "id":"l05",
+                                "quantity":1
                             },
                             { 
                                 "name":"Colun - Leche Entera ...",
                                 "value":670,
                                 "peso":"1 L" ,
                                 "url" : "Leche06.png",
-                                "id":"l06"
+                                "id":"l06",
+                                "quantity":1
 
                             },
                             {  
@@ -50,14 +56,16 @@
                                 "value":990,
                                 "peso":"1 L" ,
                                 "url" : "Leche07.png",
-                                "id":"l07"
+                                "id":"l07",
+                                "quantity":1
                             },
                             {      
                                 "name":"Soprole - Leche ZeroLa..",
                                 "value":790,
                                 "peso":"1 L" ,
                                 "url" : "Leche08.png",
-                                "id":"l08"
+                                "id":"l08",
+                                "quantity":1
                                     
                             }
                             
@@ -68,21 +76,24 @@
                                 "value": 575,
                                 "peso":" 40 gr",
                                 "url" : "Queso01.png",
-                                "id":"q01"
+                                "id":"q01",
+                                "quantity":1
                             },
                             { 
                                 "name":"Quillayes - Queso ricotta",
                                 "value": 4159,
                                 "peso":" 500 gr",
                                 "url" : "Queso02.png",
-                                "id":"q02"
+                                "id":"q02",
+                                "quantity":1
                             },
                             { 
                                 "name":"Colun - Queso rallado",
                                 "value": 575,
                                 "peso":" 40 gr",
                                 "url" : "Queso03.png",
-                                "id":"q03"
+                                "id":"q03",
+                                "quantity":1
                             }
                         ],
         "Mantequillas": [
@@ -91,14 +102,16 @@
                                 "value":1111,
                                 "peso":"500 gr" ,
                                 "url" : "Mantequilla01.png",
-                                "id":"m01"
+                                "id":"m01",
+                                "quantity":1
                             },
                             { 
                                 "name":"Calo-Mantequilla untable",
                                 "value":1919,
                                 "peso":"350 gr" ,
                                 "url" : "Mantequilla02.png",
-                                "id":"m02"
+                                "id":"m02",
+                                "quantity":1
                             }
                           
                         ],
@@ -108,28 +121,32 @@
                 "value": 200,
                 "peso":" 40 gr",
                 "url" : "Crema01.png",
-                "id":"c01"
+                "id":"c01",
+                "quantity":1
             },
             { 
                 "name":"Nestle - Crema de Leche",
                 "value": 600,
                 "peso":" 500 gr",
                 "url" : "Crema02.png",
-                "id":"c02"
+                "id":"c02",
+                "quantity":1
             },
             { 
                 "name":"Soprole - Crema de Leche",
                 "value": 1000,
                 "peso":" 40 gr",
                 "url" : "Crema03.png",
-                "id":"c03"
+                "id":"c03",
+                "quantity":1
             },
             { 
                 "name":"Colun - Crema de Leche",
                 "value": 250,
                 "peso":" 40 gr",
                 "url" : "Crema04.png",
-                "id":"c04"
+                "id":"c04",
+                "quantity":1
             }
         ]               
                     }, 
@@ -139,25 +156,29 @@
                                 "name":"Limón malla",
                                 "value":590,
                                 "peso":"1 Kg" ,
-                                "url" : ""
+                                "url" : "",
+                                "quantity":1
                             },
                             {   
                                 "name":"Palta Hass Malla",
                                 "value":1.000,
                                 "peso":" 700 gr ",
-                                "url" : ""
+                                "url" : "",
+                                "quantity":1
                             },
                             {  
                                 "name":"Manzana roja Bolsa",
                                 "value":1.190,
                                 "peso":"1 kg ",
-                                "url" : ""
+                                "url" : "",
+                                "quantity":1
                             },
                             {   
                                 "name":"Manzana verde Bolsa",
                                 "value":1.190 ,
                                 "peso":"1 Kg",
-                                "url" : ""
+                                "url" : "",
+                                "quantity":1
                             },
                             {   
                                 "name":"Plátano Extra",

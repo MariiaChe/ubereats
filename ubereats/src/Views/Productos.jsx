@@ -17,6 +17,8 @@ class Productos extends Component{
                 countSumaTotal:0
               }  
         this.addFirst= this.addFirst.bind(this)
+        this.addToBasket=this.addToBasket.bind(this)
+        this.subtractFromBasket=this.subtractFromBasket.bind(this)
     }
     addFirst(itemPrice){
         this.setState({
@@ -26,6 +28,25 @@ class Productos extends Component{
             countSumaTotal:this.state.countSumaTotal+itemPrice
         })
     }
+    addToBasket(itemPrice){
+        this.setState({
+            countItemTotal:this.state.countItemTotal+1
+        })
+        this.setState({
+            countSumaTotal:this.state.countSumaTotal+itemPrice
+        })
+    }
+    subtractFromBasket(itemPrice){
+        if(this.state.countItemTotal>0){
+            this.setState({
+                countItemTotal:this.state.countItemTotal-1
+            })
+            this.setState({
+                countSumaTotal:this.state.countSumaTotal-itemPrice
+            })
+        }
+    }
+
     changeMap(sub){
         this.setState({mapNow:sub})
     }
@@ -45,7 +66,7 @@ class Productos extends Component{
                     </div>
                 {/* <ScrollingNavbar /> */}
                 <div className="content container">
-                  <ItemList addFirst={this.addFirst} sub={this.state.mapNow}/>
+                  <ItemList itemQuantity={this.state.countItemTotal} subtractFromBasket={this.subtractFromBasket} addToBasket={this.addToBasket} addFirst={this.addFirst} sub={this.state.mapNow}/>
                 </div>
                <NavbarBottom itemTotal={this.state.countItemTotal} sumaTotal={this.state.countSumaTotal}/>
             </React.Fragment>
