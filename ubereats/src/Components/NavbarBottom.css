@@ -1,0 +1,20 @@
+.footer {
+   background:  #3C9C23;
+   height: 7%;
+   font-size:110%; 
+}
+button{
+   background: transparent;
+   border: none;
+   color: white;
+   height: 110%;
+   width:200%;
+}
+p{
+margin-right: 3%;
+margin-left:3%
+}
+a{
+   margin-left: 3%;
+   margin-right: 3%;
+}

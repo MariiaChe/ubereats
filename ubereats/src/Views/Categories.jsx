@@ -10,7 +10,7 @@ class Categories extends Component{
                 <NavbarTopCategories/>
                 <div id="categories" className="content container">
                     <div className="row">
-                       <Link className="link" to='/productos'><Category image="frescos.png" name="Frescos y Lácteos"/></Link>
+                       <Link className="link" to='/leches'><Category image="frescos.png" name="Frescos y Lácteos"/></Link>
                        <Category image="frutas.png" name="Frutas y Verduras"/>
                        <Category image="aseo.png" name="Aseo y Limpieza"/>
                        <Category image="dulces.png" name="Dulces y Desayuno"/>
