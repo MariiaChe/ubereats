@@ -6,7 +6,7 @@ class ButtonMoreLess extends Component{
             <React.Fragment>
               <div className="row BtnMoreLess">
                   <div className="less">-</div>
-                  <input value="0" type="number"/>
+                  <input value="1" type="number"/>
                   <div className="more">+</div>
               </div>  
             </React.Fragment>

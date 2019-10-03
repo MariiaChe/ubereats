@@ -2,14 +2,21 @@ import React, { Component } from 'react';
 import NavbarTopLacteos  from '../Components/NavbarTopLacteos'
 import ItemList from '../Components/ItemList'
 import ScrollingNavbar from '../Components/ScrollingNavbar'
-import Supermarket from '../supermarket.json'
+
 
 class Productos extends Component{
     constructor(props){
-        super(props) }
+        super(props) 
+       
+        // this.addToFavorite=this.addToFavorite.bind(this)
+    
+    
+    
+    }
+   
     render(){
         
-        return(
+        return( 
             <React.Fragment>
 
                 <NavbarTopLacteos/>
@@ -18,7 +25,7 @@ class Productos extends Component{
                
 
                 <div className="content container">
-                  <ItemList/>
+                  <ItemList addToFavorite={this.addToFavorite}/>
                 </div>
                   
             </React.Fragment>
