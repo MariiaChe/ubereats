@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ubereats/static/css/main.aa52b09b.chunk.css",
-    "main.js": "/ubereats/static/js/main.f560bd55.chunk.js",
-    "main.js.map": "/ubereats/static/js/main.f560bd55.chunk.js.map",
+    "main.js": "/ubereats/static/js/main.97d92e06.chunk.js",
+    "main.js.map": "/ubereats/static/js/main.97d92e06.chunk.js.map",
     "runtime-main.js": "/ubereats/static/js/runtime-main.f25c727e.js",
     "runtime-main.js.map": "/ubereats/static/js/runtime-main.f25c727e.js.map",
     "static/css/2.510409cd.chunk.css": "/ubereats/static/css/2.510409cd.chunk.css",
     "static/js/2.8e500c21.chunk.js": "/ubereats/static/js/2.8e500c21.chunk.js",
     "static/js/2.8e500c21.chunk.js.map": "/ubereats/static/js/2.8e500c21.chunk.js.map",
     "index.html": "/ubereats/index.html",
-    "precache-manifest.6cb6d7767ea07d546a4595a1c8220f72.js": "/ubereats/precache-manifest.6cb6d7767ea07d546a4595a1c8220f72.js",
+    "precache-manifest.cef6b36238c9d51bfa9ddde6771451dd.js": "/ubereats/precache-manifest.cef6b36238c9d51bfa9ddde6771451dd.js",
     "service-worker.js": "/ubereats/service-worker.js",
     "static/css/2.510409cd.chunk.css.map": "/ubereats/static/css/2.510409cd.chunk.css.map",
     "static/css/main.aa52b09b.chunk.css.map": "/ubereats/static/css/main.aa52b09b.chunk.css.map",
