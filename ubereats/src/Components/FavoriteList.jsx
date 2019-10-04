@@ -7,9 +7,9 @@ class FavoriteList extends Component{
             <React.Fragment> 
               <div className="FavoriteList row">
                 <FavoriteItem heart="corazon-rojo.png" image="LecheColunEntera.png"/>
-                <FavoriteItem heart="corazon-rojo.png" image="LecheColunEntera.png"/>
-                <FavoriteItem heart="corazon-rojo.png" image="LecheColunEntera.png"/>
-                <FavoriteItem heart="corazon-rojo.png" image="LecheColunEntera.png"/>
+                <FavoriteItem heart="corazon-rojo.png" image="Bebidas01.png"/>
+                <FavoriteItem heart="corazon-rojo.png" image="Bebidas02.png"/>
+                <FavoriteItem heart="corazon-rojo.png" image="Bebidas03.png"/>
               </div>
                   
             </React.Fragment>
