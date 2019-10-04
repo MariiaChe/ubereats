@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a8ac44084d45adc7778447301965a31c",
+    "revision": "be9a129f7ee0e436713589e4b561a96e",
     "url": "/ubereats/index.html"
   },
   {
-    "revision": "323a6270eeea30f434a6",
+    "revision": "e5bac6851eee5addafbf",
     "url": "/ubereats/static/css/2.510409cd.chunk.css"
   },
   {
-    "revision": "8125ff8541bf576ae733",
-    "url": "/ubereats/static/css/main.2e0c3364.chunk.css"
+    "revision": "22bb462c0c6dbfe77c94",
+    "url": "/ubereats/static/css/main.aa52b09b.chunk.css"
   },
   {
-    "revision": "323a6270eeea30f434a6",
-    "url": "/ubereats/static/js/2.4269573d.chunk.js"
+    "revision": "e5bac6851eee5addafbf",
+    "url": "/ubereats/static/js/2.8e500c21.chunk.js"
   },
   {
-    "revision": "8125ff8541bf576ae733",
-    "url": "/ubereats/static/js/main.33c8f324.chunk.js"
+    "revision": "22bb462c0c6dbfe77c94",
+    "url": "/ubereats/static/js/main.9bac38d7.chunk.js"
   },
   {
     "revision": "8aaed043052bf5b7f515",
@@ -176,6 +176,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ubereats/static/media/LecheVital.4083ad89.png"
   },
   {
+    "revision": "d591bf9b1b87522d9ee275bc583f72f6",
+    "url": "/ubereats/static/media/LogoExpressLider.d591bf9b.png"
+  },
+  {
+    "revision": "82656d45f5d962f5a15df7bbb7a4016c",
+    "url": "/ubereats/static/media/LogoUnimarc.82656d45.png"
+  },
+  {
     "revision": "c1c751f212fafd49f8e827e65fce066f",
     "url": "/ubereats/static/media/Mantequilla01.c1c751f2.png"
   },
@@ -258,6 +266,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7effc29ea1a6c0fd586ebdb30e992376",
     "url": "/ubereats/static/media/okmarket.7effc29e.png"
+  },
+  {
+    "revision": "1a201341126cb116b77d5fafb6e1cdb1",
+    "url": "/ubereats/static/media/santaisabel.1a201341.png"
   },
   {
     "revision": "5ffd0b32edde06c596d86c77247b3c47",
