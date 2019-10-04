@@ -4,7 +4,7 @@ import ItemList from '../Components/ItemList'
 // import ScrollingNavbar from '../Components/ScrollingNavbar' 
 import '../Components/ScrollingNavbar.css'
 import  NavbarBottom from '../Components/NavbarBottom'
-import {Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 
@@ -28,7 +28,7 @@ class Productos extends Component{
     //         countSumaTotal:this.state.countSumaTotal+itemPrice
     //     })
     // }
-    addToBasket(itemPrice){
+    addToBasket(itemPrice, itemQuantity){
         this.setState({
             countItemTotal:this.state.countItemTotal+1
         })

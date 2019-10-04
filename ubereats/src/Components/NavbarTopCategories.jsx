@@ -9,7 +9,7 @@ class NavbarTopCategories extends Component{
             <div id="navbartopcat" className="header">
                 <div className="container">
                    <div className="row">
-                   <Link to="/"><img  className="arrowb" id="icon" src={ArrowB} alt="arrow to back"/></Link>
+                    <Link to="/"><img  className="arrowb" id="icon" src={ArrowB} alt="arrow to back"/></Link>
                        <p>Tottus</p>
                     </div>  
                 </div>

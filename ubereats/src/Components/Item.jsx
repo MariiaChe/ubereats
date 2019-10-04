@@ -11,14 +11,16 @@ class Item extends Component{
     this.state={
         isFavorite:false,
         isBtnAdd:true,
-        quantityInInput:0
+        // quantityInInput:0
     }
     this.toggleFavorite=this.toggleFavorite.bind(this)
     this.moreLessButton=this.moreLessButton.bind(this)
+   
 
 
 
 }
+
 toggleFavorite(){
   this.setState({
     isFavorite:!this.state.isFavorite
@@ -29,9 +31,9 @@ moreLessButton(){
     this.setState({
       isBtnAdd:false
     })
-    this.setState({
-      quantityInInput:1
-    })
+    // this.setState({
+    //   quantityInInput:1
+    // })
   
     
   
@@ -56,7 +58,7 @@ moreLessButton(){
                 <div className="Itembutton" onClick={()=>this.moreLessButton()}>
                   {this.state.isBtnAdd?
                   <ButtonAdd  itemPrice={this.props.itemPrice} addToBasket={this.props.addToBasket}/>:
-                  <ButtonMoreLess itemQuantity={this.props.itemQuantity} itemPrice={this.props.itemPrice} addToBasket={this.props.addToBasket} subtractFromBasket={this.props.subtractFromBasket}/>
+                  <ButtonMoreLess itemQuantity={this.state.quantityInInput} itemPrice={this.props.itemPrice} addToBasket={this.props.addToBasket} subtractFromBasket={this.props.subtractFromBasket}/>
                   }
                 </div>
               </div>    

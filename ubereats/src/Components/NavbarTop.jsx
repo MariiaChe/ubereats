@@ -10,7 +10,7 @@ class NavbarTop extends Component{
                 <div className="container">
                    <div className="row">
                        <img  className="arrowb" id="icon1"src={ArrowB} alt="arrow to back"/>
-                       <textarea >Carmen 566</textarea>
+                       <p >Carmen 566</p>
                        <div className="arrowd">
                            <img id="arrowd"  src={ArrowD} alt="arrow to down"/>
                        </div>

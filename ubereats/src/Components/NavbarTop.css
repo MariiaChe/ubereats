@@ -1,20 +1,21 @@
 #navbartop p{
     text-align: center;
     font-family: 'Rubik', sans-serif;
-    font-size: 12px;
-    margin-left: 30vw;
+    margin-left: 24vw;
+    margin-top:12px;
+    font-size: 20px;
    
 }
-#navbartop .row{
+/* #navbartop .row{
     margin-top:22px;
    
     
-}
+} */
 .arrowb{
     margin-left: 5px;
     width: 14px;
     height:14px; 
-    margin-top: 10px;
+    margin-top: 19px;
 }
 #arrowd{
     position: absolute;
@@ -23,15 +24,15 @@
     width: 8px;
     height:8px;
 }
-.icon1{
+/* .icon1{
     margin-left:3%;
     margin-top:8px;
-}
-.icon2{
+} */
+/* .icon2{
 margin-top:7%;
-}
+} */
 .arrowd{
-    margin-top:2px;
+    margin-top:20px;
     margin-left:5px;
     position: relative;
     height: 14px;
@@ -39,10 +40,10 @@ margin-top:7%;
     border-radius: 50%;
     border: solid 1px black;
 }
-#navbartop textarea{
+/* #navbartop textarea{
  width:270px;
  height:30px ;
  margin-left: 8%;
  text-align: center;
  border: none;
-}
+} */

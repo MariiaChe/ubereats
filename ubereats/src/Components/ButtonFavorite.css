@@ -1,5 +1,5 @@
 .ButtonFavorite{
-    margin-top: 5%;
+    margin-top: 10px;
     font-size:13px;
     width:285px;
     height: 30px;
@@ -10,5 +10,6 @@
     color: white;
     font-weight: 500;
     background:#3C9C23;
-    margin-bottom: 10%;
+    margin-bottom:10px;
+   
 }

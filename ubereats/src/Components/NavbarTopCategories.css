@@ -13,9 +13,9 @@
   
    
     
-}
-img .arrowb{
-    
+} 
+#navbartopcat .arrowb{
+    margin-top:15px;
     margin-left: 5px;
     width: 14px;
     height:14px; 

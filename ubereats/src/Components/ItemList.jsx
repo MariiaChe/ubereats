@@ -23,7 +23,7 @@ class ItemList extends Component{
         return( 
             <React.Fragment>
               <div className="ItemList row"> 
-              {Data.Pasillos.Lacteos[this.props.sub].map(el=><Item idInp={"Inp"+el.name} idB={"B"+el.name} idAdd={el.name} itemQuantity={this.props.itemQuantity} idItem={el.id} width="60%" subtractFromBasket={this.props.subtractFromBasket} addToBasket={this.props.addToBasket} imageItem={el.url} itemName={el.name} itemPrice={el.value}/>)}
+              {Data.Pasillos.Lacteos[this.props.sub].map(el=><Item itemQuantity={this.props.itemQuantity} idItem={el.id} width="60%" subtractFromBasket={this.props.subtractFromBasket} addToBasket={this.props.addToBasket} imageItem={el.url} itemName={el.name} itemPrice={el.value}/>)}
               </div>
                   
             </React.Fragment>
